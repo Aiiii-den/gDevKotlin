@@ -7,10 +7,12 @@
 /dataSources/
 /dataSources.local.xml
 
+#out folder ignored
 ../out
 
+#.DS_Store ignored
 ../src/main/.DS_Store
-
+../src/.DS_Store
 ../.DS_Store
 
 

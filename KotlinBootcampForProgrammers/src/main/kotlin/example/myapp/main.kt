@@ -12,6 +12,11 @@ fun buildAquarium() {
     // everything custom
     val aquarium4 = Aquarium(width = 25, height = 35, length = 110)
     aquarium4.printSize()
+
+    val aquarium5 = Aquarium(numberOfFish = 29)
+    aquarium5.printSize()
+    aquarium5.volume = 70
+    aquarium5.printSize()
 }
 
 fun main() {
